@@ -1,0 +1,13 @@
+#N canvas 732 192 931 594 12;
+#X obj 191 159 metro 100;
+#X obj 195 194 osc~;
+#X obj 191 306 dac~;
+#X obj 191 107 adc~;
+#X obj 191 234 phasor~;
+#X text 271 243 Onda triangular;
+#X obj 190 271 noise~;
+#X text 261 275 Ruido blanco;
+#X text 242 195 Oscilador de onda;
+#X text 270 163 Temporizador;
+#X text 243 105 Entrada de audio;
+#X text 248 309 Salida de audio;
